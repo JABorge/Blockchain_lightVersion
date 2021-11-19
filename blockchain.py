@@ -7,6 +7,7 @@ class Block:
         self.hash = hash 
         self.last_hash = last_hash
 
+# A chain of linked blocks
 class Blockchain:
     def __init__(self):
         genesis = Block('gen_data', 'gen_hash', 'gen_last_hash')
